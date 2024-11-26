@@ -1,12 +1,10 @@
-
-import headerImage from '../assets/header_img.jpg';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div 
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden" 
-      style={{ backgroundImage: `url(${headerImage})` }} 
+      style={{ backgroundImage: `url(/images/Header_img.jpg)` }} 
       id="header"
     >
       
